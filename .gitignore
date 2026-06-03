@@ -1,0 +1,55 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# UV cache (if created locally)
+.uv/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Experiment outputs
+outputs/
+results/
+artifacts/
+runs/
+checkpoints/
+models/
+
+# Data
+data/
+datasets/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# MLflow / TensorBoard
+mlruns/
+tensorboard/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
